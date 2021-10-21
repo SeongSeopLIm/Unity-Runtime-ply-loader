@@ -22,6 +22,9 @@ You can check PointCloudLoadr.cs
 
 ## Acknowledgements
 
+Point picking (octree). Please see the following page for details.
+https://github.com/Nition/UnityOctree
+
 Ply load was referanced by pcx. Please see the following page for details.
 https://github.com/keijiro/Pcx
 
