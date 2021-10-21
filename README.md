@@ -1,2 +1,31 @@
-# Unity-Runtime-ply-loader
-load ply(binary format) and render point cloud. 
+# RuntimePLY Load for unity
+
+
+![enter image description here](https://user-images.githubusercontent.com/15900198/138194221-ffd106f5-1b11-4421-864d-8e2f721c0936.PNG)
+
+## Requirements
+
+ - Unity 2020.3.15
+ - UniRX (https://github.com/neuecc/UniRx)
+ - Compute shaders support platforms
+	 - https://docs.unity3d.com/Manual/class-ComputeShader.html
+	 -  DX11, DX12, Vulkan, Metal, etc. But i checked only one windows DX11
+
+## How to
+
+ 1. Clone or download
+ 2. Open project
+ 3. Enter DemoScene (Assets/RuntimPLYLoader/DemoScene.unity)
+ 4. Play
+
+You can check PointCloudLoadr.cs
+
+## Acknowledgements
+
+Ply load was referanced by pcx. Please see the following page for details.
+https://github.com/keijiro/Pcx
+
+
+The point cloud files used in the examples is created by Thomas Flynn and shared under the Creative Commons Attribution license. Please see the following page for details.
+
+https://sketchfab.com/3d-models/hintze-hall-nhm-london-point-cloud-be909aa8afa545118be6d36397529e2f
