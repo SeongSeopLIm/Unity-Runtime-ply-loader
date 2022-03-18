@@ -9,7 +9,10 @@
  - UniRX (https://github.com/neuecc/UniRx)
  - Compute shaders support platforms
 	 - https://docs.unity3d.com/Manual/class-ComputeShader.html
-	 -  DX11, DX12, Vulkan, Metal, etc. But i checked only one windows DX11
+	 -  DX11, DX12, Vulkan,  etc. But i checked only one windows DX11
+	 - This Point cloud rendering shader is using the geometry shader. if you want to use it with Metal, should change code. See PSIZE in Metal Shaders.
+
+
 
 ## How to
 
